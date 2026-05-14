@@ -56,10 +56,8 @@
 
 ## Приложения
 
-***
-
-* [Appendix A. PHP AI ecosystem](appendix-a.-php-ai-ecosystem.md)
-* [Appendix B. Prompt engineering cheatsheet](appendix-b.-prompt-engineering-cheatsheet.md)
-* [Appendix C. AI system design patterns](appendix-c.-ai-system-design-patterns.md)
-* [Appendix D. AI anti-patterns](appendix-d.-ai-anti-patterns.md)
-* [Appendix E. AI glossary](appendix-e.-ai-glossary.md)
+* [Appendix A. PHP AI ecosystem](prilozheniya/appendix-a.-php-ai-ecosystem.md)
+* [Appendix B. Prompt engineering cheatsheet](prilozheniya/appendix-b.-prompt-engineering-cheatsheet.md)
+* [Appendix C. AI system design patterns](prilozheniya/appendix-c.-ai-system-design-patterns.md)
+* [Appendix D. AI anti-patterns](prilozheniya/appendix-d.-ai-anti-patterns.md)
+* [Appendix E. AI glossary](prilozheniya/appendix-e.-ai-glossary.md)
