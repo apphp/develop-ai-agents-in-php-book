@@ -7,9 +7,10 @@
 
 ## Часть I. Foundations
 
-* [1.1 Новая эпоха backend engineering](chast-i.-foundations/1.1-novaya-epokha-backend-engineering.md)
-* [1.2 Как работают LLM](chast-i.-foundations/1.2-kak-rabotayut-llm.md)
-* [1.3 AI systems engineering](chast-i.-foundations/1.3-ai-systems-engineering.md)
+* [1.1 Вступление](chast-i.-foundations/1.1-vstuplenie.md)
+* [1.2 Новая эпоха backend engineering](chast-i.-foundations/1.2-novaya-epokha-backend-engineering.md)
+* [1.3 Как работают LLM](chast-i.-foundations/1.3-kak-rabotayut-llm.md)
+* [1.4 AI systems engineering](chast-i.-foundations/1.4-ai-systems-engineering.md)
 
 ## Часть II. PHP + LLM Integration
 

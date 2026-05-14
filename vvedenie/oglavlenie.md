@@ -7,9 +7,9 @@
 
 **Общий прогресс**
 
-Готовност&#x44C;**:** 51% (100%)
+Готовност&#x44C;**:** 0% (0%)
 
-⬜
+⬜🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
 **Статусы разделов**
 
@@ -25,11 +25,13 @@
 
 ### Часть I. Foundations
 
-1.1 Новая эпоха backend engineering
+1.1  Введение
 
-1.2 Как работают LLM
+1.2 Новая эпоха backend engineering
 
-1.3 AI systems engineering<br>
+1.3 Как работают LLM
+
+1.4 AI systems engineering<br>
 
 ### Часть II. PHP + LLM Integration
 
