@@ -18,7 +18,7 @@
 
 #### Введение <a href="#vvedenie" id="vvedenie"></a>
 
-Дисклеймер\
+⬜ Дисклеймер\
 О границах книги, допущениях и ответственности.
 
 [**Глоссарий**](glossarii.md)
@@ -30,12 +30,12 @@
 1.1  [**Вступление**](../chast-i.-foundations/1.1-vstuplenie.md)\
 &#xNAN;_&#x41F;очему AI-агенты снова делают PHP важным._
 
-1.2 Новая эпоха backend engineering\
+1.2 🟨 Новая эпоха backend engineering\
 &#xNAN;_&#x41E;т CRUD-сервисов к AI-native платформам._
 
-1.3 Как работают LLM
+1.3 ⬜ Как работают LLM
 
-1.4 AI systems engineering<br>
+1.4 ⬜ AI systems engineering<br>
 
 ### Часть II. PHP + LLM Integration
 
