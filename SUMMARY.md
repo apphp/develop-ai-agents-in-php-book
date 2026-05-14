@@ -4,6 +4,8 @@
 
 * [Титульный лист](README.md)
 * [Оглавление](vvedenie/oglavlenie.md)
+* [Дисклеймер](vvedenie/diskleimer.md)
+* [Глоссарий](vvedenie/glossarii.md)
 
 ## Часть I. Foundations
 
