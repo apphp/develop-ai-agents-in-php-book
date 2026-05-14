@@ -26,13 +26,11 @@
 
 ## Часть IV. Memory, State и Orchestration
 
-***
-
-* [4.1 Memory systems](4.1-memory-systems.md)
-* [4.2 Durable AI workflows](4.2-durable-ai-workflows.md)
-* [4.3 Agent orchestration](4.3-agent-orchestration.md)
-* [4.4 Multi-agent systems](4.4-multi-agent-systems.md)
-* [4.5 MCP и agent protocols](4.5-mcp-i-agent-protocols.md)
+* [4.1 Memory systems](chast-iv.-memory-state-i-orchestration/4.1-memory-systems.md)
+* [4.2 Durable AI workflows](chast-iv.-memory-state-i-orchestration/4.2-durable-ai-workflows.md)
+* [4.3 Agent orchestration](chast-iv.-memory-state-i-orchestration/4.3-agent-orchestration.md)
+* [4.4 Multi-agent systems](chast-iv.-memory-state-i-orchestration/4.4-multi-agent-systems.md)
+* [4.5 MCP и agent protocols](chast-iv.-memory-state-i-orchestration/4.5-mcp-i-agent-protocols.md)
 
 ## Часть V. Production AI Systems
 
