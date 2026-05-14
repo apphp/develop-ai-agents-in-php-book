@@ -11,13 +11,11 @@
 
 ## Часть II. PHP + LLM Integration
 
-***
-
-* [2.1 Подключение LLM к PHP](2.1-podklyuchenie-llm-k-php.md)
-* [2.2 Structured AI-output](2.2-structured-ai-output.md)
-* [2.3 Prompt architecture](2.3-prompt-architecture.md)
-* [2.4 Tool calling и execution engine](2.4-tool-calling-i-execution-engine.md)
-* [2.5 Streaming и AI UX](2.5-streaming-i-ai-ux.md)
+* [2.1 Подключение LLM к PHP](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php.md)
+* [2.2 Structured AI-output](chast-ii.-php-+-llm-integration/2.2-structured-ai-output.md)
+* [2.3 Prompt architecture](chast-ii.-php-+-llm-integration/2.3-prompt-architecture.md)
+* [2.4 Tool calling и execution engine](chast-ii.-php-+-llm-integration/2.4-tool-calling-i-execution-engine.md)
+* [2.5 Streaming и AI UX](chast-ii.-php-+-llm-integration/2.5-streaming-i-ai-ux.md)
 
 ## Часть III. Embeddings и semantic search
 
@@ -48,13 +46,11 @@
 
 ## Часть VI. Реальные AI-системы
 
-***
-
-* [6.1 AI-support platform](6.1-ai-support-platform.md)
-* [6.2 AI knowledge systems](6.2-ai-knowledge-systems.md)
-* [6.3 AI code-review systems](6.3-ai-code-review-systems.md)
-* [6.4 AI workflow automation](6.4-ai-workflow-automation.md)
-* [6.5 Research и monitoring agents](6.5-research-i-monitoring-agents.md)
+* [6.1 AI-support platform](chast-vi.-realnye-ai-sistemy/6.1-ai-support-platform.md)
+* [6.2 AI knowledge systems](chast-vi.-realnye-ai-sistemy/6.2-ai-knowledge-systems.md)
+* [6.3 AI code-review systems](chast-vi.-realnye-ai-sistemy/6.3-ai-code-review-systems.md)
+* [6.4 AI workflow automation](chast-vi.-realnye-ai-sistemy/6.4-ai-workflow-automation.md)
+* [6.5 Research и monitoring agents](chast-vi.-realnye-ai-sistemy/6.5-research-i-monitoring-agents.md)
 
 ## Часть VII. Будущее AI Engineering
 
