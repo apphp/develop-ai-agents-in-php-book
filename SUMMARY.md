@@ -10,8 +10,10 @@
 ## Часть I. Foundations
 
 * [1.1 Вступление](chast-i.-foundations/1.1-vstuplenie.md)
-* [1.2 Новая эпоха backend-разработки](chast-i.-foundations/1.2-novaya-epokha-backend-razrabotki.md)
-* [1.3 Как работают LLM](chast-i.-foundations/1.3-kak-rabotayut-llm.md)
+* [1.2 Новая эпоха бэкенд-разработки](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki.md)
+* [1.3 Как работают LLM](chast-i.-foundations/1.3-kak-rabotayut-llm/README.md)
+  * [1.3.1 Tokens и tokenization](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.1-tokens-i-tokenization.md)
+  * [todo](chast-i.-foundations/1.3-kak-rabotayut-llm/todo.md)
 * [1.4 AI systems engineering](chast-i.-foundations/1.4-ai-systems-engineering.md)
 
 ## Часть II. PHP + LLM Integration
