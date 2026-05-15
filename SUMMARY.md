@@ -23,7 +23,7 @@
   * [1.2.8 Сквозной проект книги](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.8-skvoznoi-proekt-knigi.md)
 * [1.3 Как работают LLM](chast-i.-foundations/1.3-kak-rabotayut-llm/README.md)
   * [1.3.1 Tokens и tokenization](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.1-tokens-i-tokenization.md)
-  * [1.3.2 Context Window](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.2-context-window.md)
+  * [1.3.2 Контекстное окно](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.2-kontekstnoe-okno.md)
   * [todo](chast-i.-foundations/1.3-kak-rabotayut-llm/todo.md)
 * [1.4 AI systems engineering](chast-i.-foundations/1.4-ai-systems-engineering.md)
 
