@@ -10,9 +10,20 @@
 ## Часть I. Foundations
 
 * [1.1 Вступление](chast-i.-foundations/1.1-vstuplenie.md)
-* [1.2 Новая эпоха бэкенд-разработки](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki.md)
+* [1.2 Новая эпоха бэкенд-разработки](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/README.md)
+  * [1.2.1 Почему AI становится новым runtime layer](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.1-pochemu-ai-stanovitsya-novym-runtime-layer.md)
+  * [1.2.2 AI-agent системы и классические бэкенд-системы](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.2-ai-agent-sistemy-i-klassicheskie-bekend-sistemy.md)
+  * [1.2.3 AI – это не просто умный chatbot](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.3-ai-eto-ne-prosto-umnyi-chatbot.md)
+  * [1.2.4 AI как инфраструктурная проблема](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.4-ai-kak-infrastrukturnaya-problema.md)
+  * [1.2.4 Экономика AI-систем](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.4-ekonomika-ai-sistem.md)
+  * [1.2.5 PHP и AI: мифы и реальность](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.5-php-i-ai-mify-i-realnost.md)
+  * [1.2.6 AI-системы становятся event-driven](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.6-ai-sistemy-stanovyatsya-event-driven.md)
+  * [1.2.7 Архитектура современных AI-систем](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.7-arkhitektura-sovremennykh-ai-sistem.md)
+  * [Почему observability становится критически важной](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/pochemu-observability-stanovitsya-kriticheski-vazhnoi.md)
+  * [1.2.8 Сквозной проект книги](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.8-skvoznoi-proekt-knigi.md)
 * [1.3 Как работают LLM](chast-i.-foundations/1.3-kak-rabotayut-llm/README.md)
   * [1.3.1 Tokens и tokenization](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.1-tokens-i-tokenization.md)
+  * [1.3.2 Context Window](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.2-context-window.md)
   * [todo](chast-i.-foundations/1.3-kak-rabotayut-llm/todo.md)
 * [1.4 AI systems engineering](chast-i.-foundations/1.4-ai-systems-engineering.md)
 
