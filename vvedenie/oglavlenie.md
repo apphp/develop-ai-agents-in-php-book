@@ -30,7 +30,7 @@
 1.1  [**Вступление**](../chast-i.-foundations/1.1-vstuplenie.md)\
 &#xNAN;_&#x41F;очему AI-агенты снова делают PHP важным._
 
-1.2 🟨 Новая эпоха бэкенд-разработки\
+1.2 [**Новая эпоха бэкенд-разработки**](../chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/)\
 &#xNAN;_&#x41E;т CRUD-сервисов к AI-native платформам._
 
 1.3 🟨 Как работают LLM\
