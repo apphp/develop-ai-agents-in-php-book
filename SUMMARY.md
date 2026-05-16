@@ -28,6 +28,8 @@
   * [1.3.4 Вероятность вместо "мышления"](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.4-veroyatnost-vmesto-myshleniya.md)
   * [1.3.5 Температура, top-p и сэмплирование](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.5-temperatura-top-p-i-semplirovanie.md)
   * [1.3.6 Эмбеддинги](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.6-embeddingi.md)
+  * [1.3.7 Галлюцинации и неопределенность](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.7-gallyucinacii-i-neopredelennost.md)
+  * [1.3.8 Почему LLM ошибаются](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.8-pochemu-llm-oshibayutsya.md)
   * [todo](chast-i.-foundations/1.3-kak-rabotayut-llm/todo.md)
 * [1.4 AI systems engineering](chast-i.-foundations/1.4-ai-systems-engineering.md)
 
