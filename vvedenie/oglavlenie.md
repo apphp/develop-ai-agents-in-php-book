@@ -36,19 +36,20 @@
 1.3 🟨 Как работают LLM\
 &#xNAN;_&#x41E;т предсказания токенов к reasoning systems._
 
-1.4 ⬜ AI systems engineering<br>
+1.4 🟨 Разработка AI-систем\
+&#xNAN;_&#x410;рхитектура, оркестрация и работа современных AI-платформ._<br>
 
 ### Часть II. PHP + LLM Integration
 
-2.1 Подключение LLM к PHP
+2.1 ⬜ Подключение LLM к PHP
 
-2.2 Structured AI-output
+2.2 ⬜ Structured AI-output
 
-2.3 Prompt architecture
+2.3 ⬜ Prompt architecture
 
-2.4 Tool calling и execution engine
+2.4 ⬜ Tool calling и execution engine
 
-2.5 Streaming и AI UX
+2.5 ⬜ Streaming и AI UX
 
 ### Часть III. Embeddings, Search и RAG
 

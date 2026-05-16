@@ -31,7 +31,9 @@
   * [1.3.7 Галлюцинации и неопределенность](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.7-gallyucinacii-i-neopredelennost.md)
   * [1.3.8 Почему LLM ошибаются](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.8-pochemu-llm-oshibayutsya.md)
   * [todo](chast-i.-foundations/1.3-kak-rabotayut-llm/todo.md)
-* [1.4 AI systems engineering](chast-i.-foundations/1.4-ai-systems-engineering.md)
+* [1.4 Разработка AI-систем](chast-i.-foundations/1.4-razrabotka-ai-sistem/README.md)
+  * [1.4.1 Что такое AI-агент](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.1-chto-takoe-ai-agent.md)
+  * [todo](chast-i.-foundations/1.4-razrabotka-ai-sistem/todo.md)
 
 ## Часть II. PHP + LLM Integration
 
