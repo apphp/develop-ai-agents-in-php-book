@@ -19,7 +19,7 @@
   * [1.2.5 PHP и AI: мифы и реальность](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.5-php-i-ai-mify-i-realnost.md)
   * [1.2.6 AI-системы становятся event-driven](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.6-ai-sistemy-stanovyatsya-event-driven.md)
   * [1.2.7 Архитектура современных AI-систем](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.7-arkhitektura-sovremennykh-ai-sistem.md)
-  * [1.2.8 Почему observability становится критически важной](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.8-pochemu-observability-stanovitsya-kriticheski-vazhnoi.md)
+  * [1.2.8 Почему наблюдаемость становится критически важной](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.8-pochemu-nablyudaemost-stanovitsya-kriticheski-vazhnoi.md)
   * [1.2.9 Сквозной проект книги](chast-i.-foundations/1.2-novaya-epokha-bekend-razrabotki/1.2.9-skvoznoi-proekt-knigi.md)
 * [1.3 Как работают LLM](chast-i.-foundations/1.3-kak-rabotayut-llm/README.md)
   * [1.3.1 Tokens и tokenization](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.1-tokens-i-tokenization.md)
