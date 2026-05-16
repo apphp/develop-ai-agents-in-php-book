@@ -1,5 +1,5 @@
 ---
-description: Архитектура, memory, workflows и production-ready системы
+description: Разработка AI-агентов на PHP
 ---
 
 # Титульный лист
