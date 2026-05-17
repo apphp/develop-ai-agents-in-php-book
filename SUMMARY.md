@@ -35,6 +35,8 @@
   * [1.3.11 Заключение](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.11-zaklyuchenie.md)
 * [1.4 Разработка AI-систем](chast-i.-foundations/1.4-razrabotka-ai-sistem/README.md)
   * [1.4.1 Что такое AI-агент](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.1-chto-takoe-ai-agent.md)
+  * [1.4.2 Agent vs workflow](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.2-agent-vs-workflow.md)
+  * [1.4.3 Tool calling architecture](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.3-tool-calling-architecture.md)
   * [todo](chast-i.-foundations/1.4-razrabotka-ai-sistem/todo.md)
 
 ## Часть II. PHP + LLM Integration
