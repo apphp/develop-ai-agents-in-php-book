@@ -6,22 +6,19 @@ hidden: true
 
 
 
-31. Tool calling architecture
-32. Planning и execution
-33. Reflection loops
-34. Statefulness в AI systems
-35. Durable execution
-36. Human-in-the-loop systems
-37. Когда агент НЕ нужен
-38. Anti-patterns AI systems
+
+
+31. Planning и execution
+32. Reflection loops
+33. Statefulness в AI systems
+34. Durable execution
+35. Human-in-the-loop systems
+36. Когда агент НЕ нужен
+37. Anti-patterns AI systems
 
 
 
 
-
-***
-
-##
 
 ***
 
