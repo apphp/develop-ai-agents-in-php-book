@@ -32,7 +32,7 @@
   * [1.3.8 Почему LLM ошибаются](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.8-pochemu-llm-oshibayutsya.md)
   * [1.3.9 Ограничения современных моделей](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.9-ogranicheniya-sovremennykh-modelei.md)
   * [1.3.10 Почему AI-системы должны быть детерминированными поверх вероятностных моделей](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.10-pochemu-ai-sistemy-dolzhny-byt-determinirovannymi-poverkh-veroyatnostnykh-modelei.md)
-  * [todo](chast-i.-foundations/1.3-kak-rabotayut-llm/todo.md)
+  * [1.3.11 Заключение](chast-i.-foundations/1.3-kak-rabotayut-llm/1.3.11-zaklyuchenie.md)
 * [1.4 Разработка AI-систем](chast-i.-foundations/1.4-razrabotka-ai-sistem/README.md)
   * [1.4.1 Что такое AI-агент](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.1-chto-takoe-ai-agent.md)
   * [todo](chast-i.-foundations/1.4-razrabotka-ai-sistem/todo.md)
