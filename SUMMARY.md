@@ -41,7 +41,10 @@
 
 ## Часть II. PHP + LLM Integration
 
-* [2.1 Подключение LLM к PHP](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php.md)
+* [2.1 Подключение LLM к PHP](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/README.md)
+  * [2.1.1 Что происходит между PHP и LLM](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.1-chto-proiskhodit-mezhdu-php-i-llm.md)
+  * [todo](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/todo.md)
+  * [todo 2](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/todo-2.md)
 * [2.2 Structured AI-output](chast-ii.-php-+-llm-integration/2.2-structured-ai-output.md)
 * [2.3 Prompt architecture](chast-ii.-php-+-llm-integration/2.3-prompt-architecture.md)
 * [2.4 Tool calling и execution engine](chast-ii.-php-+-llm-integration/2.4-tool-calling-i-execution-engine.md)
