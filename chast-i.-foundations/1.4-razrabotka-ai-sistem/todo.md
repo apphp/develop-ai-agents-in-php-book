@@ -4,105 +4,16 @@ hidden: true
 
 # todo
 
+31. Reflection loops
+32. Statefulness в AI systems
+33. Durable execution
+34. Human-in-the-loop systems
+35. Когда агент НЕ нужен
+36. Anti-patterns AI systems
 
 
 
 
-31. Planning и execution
-32. Reflection loops
-33. Statefulness в AI systems
-34. Durable execution
-35. Human-in-the-loop systems
-36. Когда агент НЕ нужен
-37. Anti-patterns AI systems
-
-
-
-
-
-***
-
-## 1.4.4 Planning и execution
-
-Planning – одна из самых переоценённых и одновременно самых важных тем в AI systems.
-
-Когда говорят “агент умеет планировать”, обычно имеют в виду:
-
-– decomposition задач\
-– step generation\
-– dependency analysis\
-– dynamic execution
-
-***
-
-### Простейший planner
-
-Пусть пользователь говорит:
-
-“Проанализируй конкурентов моего SaaS.”
-
-Planner может разбить задачу:
-
-1. Найти конкурентов
-2. Собрать pricing
-3. Извлечь features
-4. Сравнить
-5. Сгенерировать summary
-
-***
-
-### Tree-of-thoughts
-
-Некоторые системы строят несколько вариантов reasoning paths.
-
-Идея напоминает поиск в дереве.
-
-\[PLACEHOLDER: tree of thoughts]
-
-#### Prompt для картинки
-
-```
-Tree of Thoughts AI reasoning diagram:
-Root problem branching into multiple reasoning paths with evaluation scores and best path selected.
-Minimalistic technical visualization.
-```
-
-***
-
-### Execution engine
-
-Planner сам по себе бесполезен.
-
-Нужен execution engine.
-
-Он отвечает за:
-
-– retries\
-– state\
-– timeout\
-– scheduling\
-– cancellation\
-– dependency graph
-
-***
-
-### Почему planning сложно
-
-Каждый новый шаг увеличивает вероятность ошибки.
-
-Если вероятность успешного шага:
-
-p=0.95
-
-то вероятность успеха 20 последовательных шагов:
-
-P=0.95^{20}
-
-что уже примерно равно 0.36.
-
-Это фундаментальная проблема autonomous systems.
-
-Чем длиннее reasoning chain – тем выше вероятность failure accumulation.
 
 ***
 

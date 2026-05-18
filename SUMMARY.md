@@ -37,6 +37,7 @@
   * [1.4.1 Что такое AI-агент](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.1-chto-takoe-ai-agent.md)
   * [1.4.2 Агент vs workflow](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.2-agent-vs-workflow.md)
   * [1.4.3 Tool calling архитектура](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.3-tool-calling-arkhitektura.md)
+  * [1.4.4 Planning и execution](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.4-planning-i-execution.md)
   * [todo](chast-i.-foundations/1.4-razrabotka-ai-sistem/todo.md)
 
 ## Часть II. PHP + LLM Integration
