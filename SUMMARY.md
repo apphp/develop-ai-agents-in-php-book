@@ -40,6 +40,9 @@
   * [1.4.2 Агент vs workflow](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.2-agent-vs-workflow.md)
   * [1.4.3 Tool calling архитектура](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.3-tool-calling-arkhitektura.md)
   * [1.4.4 Planning и execution](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.4-planning-i-execution.md)
+  * [1.4.5 Циклы самоанализа](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.5-cikly-samoanaliza.md)
+  * [1.4.6 Statefulness в AI systems](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.6-statefulness-v-ai-systems.md)
+  * [1.4.7 Надёжное выполнение задач](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.7-nadyozhnoe-vypolnenie-zadach.md)
   * [todo](chast-i.-foundations/1.4-razrabotka-ai-sistem/todo.md)
 
 ## Часть II. PHP + LLM Integration
