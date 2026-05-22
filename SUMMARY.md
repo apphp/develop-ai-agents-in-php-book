@@ -55,6 +55,7 @@
   * [2.1.2 OpenAI API](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.2-openai-api.md)
   * [2.1.3 Anthropic API](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.3-anthropic-api.md)
   * [2.1.4 Ollama и локальные модели](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.4-ollama-i-lokalnye-modeli.md)
+  * [2.1.17 Сквозной проект: Production AI Client](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.17-skvoznoi-proekt-production-ai-client.md)
   * [todo](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/todo.md)
   * [todo 2](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/todo-2.md)
 * [2.2 Structured AI-output](chast-ii.-php-+-llm-integration/2.2-structured-ai-output.md)
