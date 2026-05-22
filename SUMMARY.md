@@ -43,7 +43,10 @@
   * [1.4.5 Циклы самоанализа](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.5-cikly-samoanaliza.md)
   * [1.4.6 Statefulness в AI systems](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.6-statefulness-v-ai-systems.md)
   * [1.4.7 Надёжное выполнение задач](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.7-nadyozhnoe-vypolnenie-zadach.md)
-  * [todo](chast-i.-foundations/1.4-razrabotka-ai-sistem/todo.md)
+  * [1.4.8 Human-in-the-loop systems](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.8-human-in-the-loop-systems.md)
+  * [1.4.9 Когда агент НЕ нужен](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.9-kogda-agent-ne-nuzhen.md)
+  * [1.4.10 Anti-patterns AI systems](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.10-anti-patterns-ai-systems.md)
+  * [1.4.11 Заключение](chast-i.-foundations/1.4-razrabotka-ai-sistem/1.4.11-zaklyuchenie.md)
 
 ## Часть II. PHP + LLM Integration
 
