@@ -4,110 +4,13 @@ hidden: true
 
 # todo
 
-***
 
-***
 
-## 2.1.5 OpenRouter и unified gateways
 
-Вместо интеграции десятков API можно использовать единый gateway, например OpenRouter.
 
-Идея проста:
 
-```
-PHP → OpenRouter → multiple LLM providers
-```
 
-Плюсы:
 
-* один API;
-* много моделей;
-* простое переключение;
-* дешёвый failover.
-
-***
-
-## 2.1.6 Unified AI abstraction layer
-
-Если не использовать abstraction layer, код быстро превращается в:
-
-```php
-if ($provider === 'openai') {}
-if ($provider === 'anthropic') {}
-if ($provider === 'ollama') {}
-```
-
-Правильный подход:
-
-```php
-interface AIProvider {
-    public function generate(string $prompt): AIResponse;
-}
-```
-
-Это даёт:
-
-* независимость от провайдера;
-* расширяемость;
-* централизованный контроль.
-
-***
-
-## 2.1.7 Structured responses
-
-LLM по умолчанию возвращает текст, а не структуру.
-
-Но в реальных системах нужен JSON:
-
-```json
-{
-  "summary": "text",
-  "score": 0.87
-}
-```
-
-Проблема в том, что модель может “сломать” JSON.
-
-Поэтому вводится structured output + validation.
-
-PHP DTO:
-
-```php
-class AnalysisResult {
-    public function __construct(
-        public string $summary,
-        public float $score
-    ) {}
-}
-```
-
-***
-
-## 2.1.8 Streaming responses
-
-LLM может генерировать токены постепенно.
-
-```
-Hello → Hello world → Hello world!
-```
-
-Это важно для UX.
-
-PHP streaming:
-
-```php
-'stream' => true
-```
-
-#### Математика latency:
-
-T = T\_{prompt} + N \cdot T\_{token}
-
-T = T\_{prompt} + N \cdot T\_{token}
-
-Streaming уменьшает perceived latency, хотя total time остаётся тем же.
-
-***
 
 ## 2.1.9 Retries и exponential backoff
 
