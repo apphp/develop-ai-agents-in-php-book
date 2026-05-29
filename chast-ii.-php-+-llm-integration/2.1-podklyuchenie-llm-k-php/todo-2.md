@@ -4,69 +4,6 @@ hidden: true
 
 # todo 2
 
-
-
-## 2.1.10 Rate limiting
-
-### Стоимость вычислений
-
-Cost \propto InputTokens + OutputTokens
-
-***
-
-### Laravel middleware
-
-```php
-RateLimiter::for('ai', function () {
-    return Limit::perMinute(60);
-});
-```
-
-***
-
-## 2.1.11 Timeout handling
-
-### PHP
-
-```php
-$client = new Client([
-    'timeout' => 30,
-    'connect_timeout' => 5,
-]);
-```
-
-***
-
-### Laravel
-
-```php
-Http::timeout(30)
-    ->connectTimeout(5)
-    ->post(...);
-```
-
-***
-
-## 2.1.12 Failover между моделями
-
-```php
-foreach ($providers as $provider) {
-    try {
-        return $provider->generate($prompt);
-    } catch (Throwable $e) {}
-}
-```
-
-***
-
-### Laravel version
-
-```php
-app(AIService::class)->ask($prompt);
-```
-
-А внутри сервиса может быть routing между провайдерами.
-
 ***
 
 ## 2.1.13 Universal AI client architecture

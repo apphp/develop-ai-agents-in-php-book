@@ -4,66 +4,6 @@ hidden: true
 
 # todo
 
-
-
-
-
-## 2.1.10 Rate limiting
-
-LLM API ограничивают:
-
-* RPM (requests per minute)
-* TPM (tokens per minute)
-
-Стоимость примерно:
-
-Cost \propto input + output tokens
-
-Cost \propto InputTokens + OutputTokens
-
-Чем больше context window – тем выше стоимость.
-
-***
-
-## 2.1.11 Timeout handling
-
-Без таймаутов система может зависнуть.
-
-```php
-new Client([
-    'timeout' => 30,
-    'connect_timeout' => 5
-]);
-```
-
-Типы таймаутов:
-
-* connect;
-* request;
-* streaming.
-
-***
-
-## 2.1.12 Failover между моделями
-
-В production почти всегда несколько моделей:
-
-```
-GPT → Claude → Ollama
-```
-
-PHP:
-
-```php
-foreach ($providers as $provider) {
-    try {
-        return $provider->generate($prompt);
-    } catch (Throwable $e) {}
-}
-```
-
-Это даёт resilience системы.
-
 ***
 
 ## 2.1.13 Universal AI client architecture
