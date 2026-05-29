@@ -372,3 +372,35 @@ $$
 * normalization layers
 
 Именно transformer стал фундаментом для таких моделей, как OpenAI GPT, Google Gemini, Meta Llama и многих современных AI-agent систем.
+
+### Workflows
+
+Workflows – это последовательности шагов и действий, которые AI-система выполняет для решения задачи.
+
+В AI-agent systems workflow описывает:
+
+* порядок reasoning
+* вызовы tools
+* обработку данных
+* взаимодействие между агентами и сервисами
+
+Обычно workflow состоит из набора этапов:
+
+$$
+W = \{s_1, s_2, ..., s_n\}
+$$
+
+где:
+
+* $$W$$ – workflow
+* $$s_i$$ – отдельные шаги процесса
+
+В современных AI-platform workflows часто реализуются через:
+
+* orchestration systems
+* state machines
+* DAG execution
+* event-driven architecture
+* multi-agent coordination
+
+Workflows позволяют AI-системам выполнять сложные multi-step задачи предсказуемо, масштабируемо и управляемо.
