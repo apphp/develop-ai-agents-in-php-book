@@ -67,6 +67,8 @@
   * [todo](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/todo.md)
   * [todo 2](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/todo-2.md)
 * [2.2 Structured AI-output](chast-ii.-php-+-llm-integration/2.2-structured-ai-output/README.md)
+  * [2.2.1 Почему plain-text output ломает production](chast-ii.-php-+-llm-integration/2.2-structured-ai-output/2.2.1-pochemu-plain-text-output-lomaet-production.md)
+  * [2.2.2 JSON Schema и AI contracts](chast-ii.-php-+-llm-integration/2.2-structured-ai-output/2.2.2-json-schema-i-ai-contracts.md)
   * [todo](chast-ii.-php-+-llm-integration/2.2-structured-ai-output/todo.md)
   * [2.2.x Сквозной проект: typed AI response engine](chast-ii.-php-+-llm-integration/2.2-structured-ai-output/2.2.x-skvoznoi-proekt-typed-ai-response-engine.md)
 * [2.3 Prompt architecture](chast-ii.-php-+-llm-integration/2.3-prompt-architecture.md)

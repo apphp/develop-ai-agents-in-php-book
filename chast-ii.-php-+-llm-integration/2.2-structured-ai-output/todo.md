@@ -6,208 +6,22 @@ hidden: true
 
 Оптимальная структура:
 
-* 2.2 Structured AI-output
-  * 2.2.1 Почему plain-text output ломает production
-  * 2.2.2 JSON Schema и AI contracts
-  * 2.2.3 Typed AI responses и DTO
-  * 2.2.4 Validation layers
-  * 2.2.5 Recovery strategies
-  * 2.2.6 Deterministic pipelines
-  * 2.2.7 Confidence scoring
-  * 2.2.8 Schema evolution
-  * 2.2.9 Production patterns для structured AI systems
-  * AI output contracts ???????????
+*   2.2 Structured AI-output
 
 
 
+    * 2.2.3 Typed AI responses и DTO
+    * 2.2.4 Validation layers
+    * 2.2.5 Recovery strategies
+    * 2.2.6 Deterministic pipelines
+    * 2.2.7 Confidence scoring
+    * 2.2.8 Schema evolution
+    * 2.2.9 Production patterns для structured AI systems
+    * AI output contracts ???????????
 
 
 
 
-***
-
-## 2.2 Structured AI-output
-
-### 2.2.1 Почему plain-text output ломает production
-
-Когда разработчики впервые подключают LLM к PHP-приложению, почти все начинают одинаково:
-
-```php
-$response = $client->chat([
-    'model' => 'gpt-4.1',
-    'messages' => [
-        ['role' => 'user', 'content' => 'Определи настроение письма']
-    ]
-]);
-
-echo $response['content'];
-```
-
-Модель отвечает:
-
-```
-Письмо выглядит раздраженным. Пользователь недоволен задержкой доставки.
-```
-
-На этапе прототипа всё кажется идеальным. Но production-системы ломаются почти сразу.
-
-Проблема в том, что plain-text output не является стабильным интерфейсом.
-
-Сегодня модель ответила:
-
-```
-negative
-```
-
-Завтра:
-
-```
-The sentiment is negative.
-```
-
-Послезавтра:
-
-```
-This looks slightly negative but not extremely aggressive.
-```
-
-А через неделю после обновления модели:
-
-```
-Customer sentiment: NEGATIVE
-Urgency: MEDIUM
-```
-
-Для человека это почти одинаковые ответы. Для production pipeline – совершенно разные структуры.
-
-LLM – вероятностная система. Она не “исполняет код”, а генерирует наиболее вероятное продолжение текста.
-
-Если у системы нет строгого контракта ответа, то любое обновление модели может разрушить:
-
-* парсинг,
-* маршрутизацию,
-* бизнес-логику,
-* AI workflow,
-* аналитику,
-* observability,
-* автоматизацию.
-
-Именно поэтому production AI почти никогда не работает с plain text напрямую.
-
-Современные AI-системы строятся вокруг structured output.
-
-***
-
-### 2.2.2 JSON Schema и AI contracts
-
-Structured output означает, что модель обязана вернуть ответ в заранее определенной структуре.
-
-Обычно используется JSON.
-
-Например, support-платформа может ожидать такой ответ:
-
-```json
-{
-  "sentiment": "negative",
-  "urgency": 0.82,
-  "summary": "Клиент жалуется на отсутствие ответа",
-  "department": "support"
-}
-```
-
-Теперь AI становится частью инженерной системы, а не “магическим текстовым генератором”.
-
-Это уже напоминает обычный API contract.
-
-***
-
-#### JSON Schema
-
-Для production чаще всего используется JSON Schema.
-
-Пример:
-
-```json
-{
-  "type": "object",
-  "properties": {
-    "sentiment": {
-      "type": "string",
-      "enum": ["positive", "neutral", "negative"]
-    },
-    "urgency": {
-      "type": "number",
-      "minimum": 0,
-      "maximum": 1
-    },
-    "summary": {
-      "type": "string"
-    }
-  },
-  "required": [
-    "sentiment",
-    "urgency",
-    "summary"
-  ]
-}
-```
-
-Теперь система может валидировать ответ модели так же, как любой REST API.
-
-***
-
-#### Почему schema важнее prompt
-
-Многие начинающие AI-разработчики пытаются решить всё через prompt engineering:
-
-```
-Ответь строго в JSON.
-НЕ ДОБАВЛЯЙ НИКАКОГО ТЕКСТА.
-```
-
-Но это ненадежно.
-
-Production AI не должен “надеяться”, что модель будет послушной.
-
-Production AI должен иметь:
-
-* schema,
-* validation,
-* retries,
-* recovery,
-* observability,
-* fallback logic.
-
-***
-
-#### AI output как контракт
-
-В production LLM становится сервисом с контрактом.
-
-Модель обязана соблюдать интерфейс:
-
-```
-Input -> Schema -> Validation -> Business Logic
-```
-
-Это превращает вероятностную систему в частично детерминированный pipeline.
-
-***
-
-#### Математическая идея structured output
-
-Structured AI-output можно представить как задачу ограничения пространства генерации.
-
-Без schema модель выбирает ответ из огромного множества текстов:
-
-|\Omega\_{plain}| \gg |\Omega\_{schema}|
-
-Где:
-
-* Ωplain – пространство всех возможных текстов,
-* Ωschema – пространство допустимых структурированных ответов.
-
-Чем меньше пространство допустимых ответов, тем ниже entropy output и выше стабильность системы.
 
 ***
 
@@ -800,16 +614,6 @@ LLM начинает превращаться в предсказуемый ин
 ***
 
 ### Идеи картинок для главы
-
-#### Картинка 1 – “Plain text vs structured output”
-
-Промпт:
-
-```
-Diagram comparing unstable plain-text AI output vs structured JSON AI output in a production backend system. Left side chaotic arrows and broken parsers, right side stable pipeline with schema validation, DTO mapping and deterministic processing. Modern backend architecture style.
-```
-
-***
 
 #### Картинка 2 – “Validation layers”
 
