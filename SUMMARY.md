@@ -59,6 +59,7 @@
   * [2.1.6 Единый уровень абстракции AI](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.6-edinyi-uroven-abstrakcii-ai.md)
   * [2.1.7 Структурированные ответы](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.7-strukturirovannye-otvety.md)
   * [2.1.8 Потоковая выдача](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.8-potokovaya-vydacha.md)
+  * [2.1.9 Retries и exponential backoff](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.9-retries-i-exponential-backoff.md)
   * [2.1.17 Сквозной проект: Production AI Client](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.17-skvoznoi-proekt-production-ai-client.md)
   * [todo](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/todo.md)
   * [todo 2](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/todo-2.md)

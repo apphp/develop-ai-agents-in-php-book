@@ -6,47 +6,6 @@ hidden: true
 
 
 
-
-
-## 2.1.9 Retries и exponential backoff
-
-### Формула
-
-delay = base \times 2^n
-
-***
-
-### PHP реализация
-
-```php
-function retry(callable $fn, int $max = 5)
-{
-    for ($i = 0; $i < $max; $i++) {
-        try {
-            return $fn();
-        } catch (Throwable $e) {
-            sleep(pow(2, $i));
-        }
-    }
-
-    throw new Exception('Max retries exceeded');
-}
-```
-
-***
-
-### Laravel retry helper
-
-```php
-use Illuminate\Support\Facades\Http;
-
-$response = retry(5, function () {
-    return Http::get('https://api.openai.com/v1/models');
-});
-```
-
-***
-
 ## 2.1.10 Rate limiting
 
 ### Стоимость вычислений

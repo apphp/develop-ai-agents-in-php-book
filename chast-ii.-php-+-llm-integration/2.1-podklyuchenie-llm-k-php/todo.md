@@ -8,36 +8,6 @@ hidden: true
 
 
 
-
-
-
-
-## 2.1.9 Retries и exponential backoff
-
-LLM API нестабильны.
-
-Причины:
-
-* rate limit;
-* network failures;
-* overload.
-
-Правильный retry:
-
-delay = base \times 2^n
-
-delay = base \times 2^n
-
-PHP:
-
-```php
-sleep(pow(2, $attempt));
-```
-
-Важно избегать retry storm.
-
-***
-
 ## 2.1.10 Rate limiting
 
 LLM API ограничивают:
