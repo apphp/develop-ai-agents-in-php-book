@@ -7,9 +7,9 @@
 
 **Общий прогресс**
 
-Готовност&#x44C;**:** 18% (21%)
+Готовност&#x44C;**:** 19% (28%)
 
-🟩🟩🟩🟩🟩🟩🟩🟨🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+🟩🟨🟩🟩🟩🟩🟩🟩🟨🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
 **Статусы разделов**
 
@@ -20,6 +20,8 @@
 
 [**Дисклеймер**](diskleimer.md)\
 О границах книги, допущениях и ответственности.
+
+🟨 Экосистема AI-агентов в PHP
 
 [**О книге**](o-knige/)
 
@@ -113,13 +115,9 @@
 
 ### Приложения
 
-Appendix A. PHP AI ecosystem
-
 Appendix B. Prompt engineering cheatsheet
 
 Appendix C. AI system design patterns
 
 Appendix D. AI anti-patterns
-
-Appendix E. AI glossary
 
