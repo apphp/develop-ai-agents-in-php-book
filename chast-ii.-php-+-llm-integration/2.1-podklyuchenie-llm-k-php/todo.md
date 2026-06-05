@@ -4,28 +4,6 @@ hidden: true
 
 # todo
 
-***
-
-## 2.1.13 Universal AI client architecture
-
-Со временем система превращается в AI gateway:
-
-```
-App → AI Gateway → Routing → Providers
-```
-
-\[IMAGE\_PLACEHOLDER: AI gateway architecture]
-
-Функции:
-
-* routing;
-* caching;
-* observability;
-* failover;
-* policy enforcement.
-
-***
-
 ## 2.1.14 Observability для AI-систем
 
 AI нельзя мониторить как обычный API.

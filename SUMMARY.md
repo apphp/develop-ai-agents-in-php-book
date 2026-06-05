@@ -64,6 +64,7 @@
   * [2.1.10 Rate limiting](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.10-rate-limiting.md)
   * [2.1.11 Timeout handling](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.11-timeout-handling.md)
   * [2.1.12 Failover между моделями](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.12-failover-mezhdu-modelyami.md)
+  * [2.1.13 Универсальная архитектура AI клиента](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.13-universalnaya-arkhitektura-ai-klienta.md)
   * [2.1.17 Сквозной проект: Production AI Client](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/2.1.17-skvoznoi-proekt-production-ai-client.md)
   * [todo](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/todo.md)
   * [todo 2](chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/todo-2.md)

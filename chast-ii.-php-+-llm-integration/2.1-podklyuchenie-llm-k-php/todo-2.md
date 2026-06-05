@@ -4,30 +4,6 @@ hidden: true
 
 # todo 2
 
-***
-
-## 2.1.13 Universal AI client architecture
-
-```
-App → AI Gateway → Routing → Providers
-```
-
-\[IMAGE\_PLACEHOLDER: AI gateway architecture]
-
-***
-
-### Laravel архитектура
-
-* AIService (facade)
-* ProviderManager
-* OpenAIProvider
-* AnthropicProvider
-* OllamaProvider
-* Router
-* Cache layer
-
-***
-
 ## 2.1.14 Observability для AI-систем
 
 Важно отслеживать:
