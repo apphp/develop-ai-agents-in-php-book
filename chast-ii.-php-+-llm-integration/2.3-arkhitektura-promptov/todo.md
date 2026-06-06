@@ -110,9 +110,10 @@ prompts/
 ├── ticket_summary.txt
 ├── reply_generation.txt
 └── escalation_detection.txt
+
 ```
 
-***
+
 
 ### 2.3.2 Prompt Templates
 
