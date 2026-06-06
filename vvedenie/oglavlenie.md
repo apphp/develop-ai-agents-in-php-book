@@ -48,7 +48,7 @@
 
 ### Часть II. PHP + LLM Integration
 
-2.1 🟨 Подключение LLM к PHP\
+2.1 [**Подключение LLM к PHP**](../chast-ii.-php-+-llm-integration/2.1-podklyuchenie-llm-k-php/)\
 &#xNAN;_&#x4C;LM как часть backend-системы._
 
 2.2 🟨 Structured AI-output\
