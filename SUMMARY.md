@@ -79,6 +79,7 @@
   * [2.2.x Сквозной проект: typed AI response engine](chast-ii.-php-+-llm-integration/2.2-structured-ai-output/2.2.x-skvoznoi-proekt-typed-ai-response-engine.md)
 * [2.3 Архитектура промптов](chast-ii.-php-+-llm-integration/2.3-arkhitektura-promptov/README.md)
   * [2.3.1 Prompt как программный артефакт](chast-ii.-php-+-llm-integration/2.3-arkhitektura-promptov/2.3.1-prompt-kak-programmnyi-artefakt.md)
+  * [2.3.2 Шаблоны промптов](chast-ii.-php-+-llm-integration/2.3-arkhitektura-promptov/2.3.2-shablony-promptov.md)
   * [TODO](chast-ii.-php-+-llm-integration/2.3-arkhitektura-promptov/todo.md)
 * [2.4 Tool calling и execution engine](chast-ii.-php-+-llm-integration/2.4-tool-calling-i-execution-engine.md)
 * [2.5 Streaming и AI UX](chast-ii.-php-+-llm-integration/2.5-streaming-i-ai-ux.md)
