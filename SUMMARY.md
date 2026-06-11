@@ -8,6 +8,7 @@
 * [Экосистема AI-агентов в PHP](vvedenie/ekosistema-ai-agentov-v-php.md)
 * [О книге](vvedenie/o-knige/README.md)
   * [Лицензия и авторские права](vvedenie/o-knige/licenziya-i-avtorskie-prava.md)
+  * [Как контрибьютить](vvedenie/o-knige/kak-kontribyutit.md)
 * [Глоссарий](vvedenie/glossarii.md)
 
 ## Часть I. Foundations
